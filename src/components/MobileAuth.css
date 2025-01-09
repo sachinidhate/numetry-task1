@@ -1,0 +1,72 @@
+/* MobileAuth.css */
+
+/* Center the container and apply a background color */
+.auth-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f2f5;
+  font-family: 'Arial', sans-serif;
+}
+
+/* Form container styling */
+.auth-form {
+  background-color: #fff;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 450px;
+  text-align: center;
+}
+
+/* Title styling */
+.auth-form h2 {
+  font-size: 26px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Input fields styling */
+.auth-form input {
+  width: 100%;
+  padding: 12px;
+  margin: 12px 0;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  font-size: 16px;
+  outline: none;
+  box-sizing: border-box;
+}
+
+/* Button styling */
+.auth-form button {
+  width: 100%;
+  padding: 12px;
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  font-size: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  box-sizing: border-box;
+}
+
+.auth-form button:hover {
+  background-color: #45a049;
+}
+
+.auth-form button:disabled {
+  background-color: #cccccc;
+}
+
+/* Message text styling */
+.message {
+  margin-top: 15px;
+  font-size: 16px;
+  color: #555;
+  font-weight: 600;
+}
+
